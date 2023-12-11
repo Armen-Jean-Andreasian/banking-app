@@ -31,6 +31,7 @@ class UserBankAccount:
 
 
 
+
 class UserTransactions(UserBankAccount):
     def save_balance(self):
         Bank.update_balance(self.username, self.balance)
